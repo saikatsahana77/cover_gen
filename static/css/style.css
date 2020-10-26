@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(
+      135deg,
+      rgba(107, 107, 107, 0.06) 0%,
+      rgba(107, 107, 107, 0.06) 50%,
+      rgba(202, 202, 202, 0.06) 50%,
+      rgba(202, 202, 202, 0.06) 100%
+    ),
+    linear-gradient(90deg, rgb(20, 20, 20), rgb(20, 20, 20));
+  background-size: 30px 30px;
+}
+
+#heading {
+  font-size: clamp(32px, 8vw, 60px);
+  color: #ffffff;
+  margin: 10px 0px 5px 0px;
+  padding: 2px;
+  font-family: "Lemonada", cursive;
+  text-decoration: underline;
+}
+
+.issue {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0px;
+  text-transform: bold;
+  font-size: clamp(20px, 5vw, 30px);
+}
+
+.issue:nth-child(2) {
+  margin-bottom: 5px;
+}
+
+.btn-social {
+  margin-top: 2px;
+  border-radius: 50%;
+  font-size: clamp(16px, 2vw, 20px);
+}
+
+#facebook {
+  padding: 2px;
+}
+
+#twitter {
+  padding: 1px 0px;
+}
+
+#main_cont {
+  border-radius: 20px;
+  margin-top: 20px;
+  -moz-box-shadow: inset 0 0 30px #000000;
+  -webkit-box-shadow: inset 0 0 30px #000000;
+  box-shadow: inset 0 0 30px #000000;
+}
